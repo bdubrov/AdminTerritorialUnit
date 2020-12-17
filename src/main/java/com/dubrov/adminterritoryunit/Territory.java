@@ -2,6 +2,7 @@ package com.dubrov.adminterritoryunit;
 
 import java.util.Objects;
 
+
 public abstract class Territory implements AdminTerritorialUnit {
     protected String name;
     protected double numberOfPeople;

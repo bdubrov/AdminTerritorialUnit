@@ -12,6 +12,7 @@ public enum LocalityType {
         this.minNumberOfPeople = minNumberOfPeople;
     }
 
+
     public String getFullName() {
         return fullName;
     }

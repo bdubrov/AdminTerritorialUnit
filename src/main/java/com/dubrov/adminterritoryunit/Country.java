@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.counting;
 
+
 public class Country extends Territory {
     private Collection<Region> regions;
     private Collection<Locality> localities;

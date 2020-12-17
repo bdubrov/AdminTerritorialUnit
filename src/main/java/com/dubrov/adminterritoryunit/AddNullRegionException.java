@@ -5,3 +5,4 @@ public class AddNullRegionException extends Exception {
         super(massage);
     }
 }
+

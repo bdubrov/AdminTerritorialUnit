@@ -104,3 +104,4 @@ class LocalityTest {
         verify(leader).getPersonInfo();
     }
 }
+

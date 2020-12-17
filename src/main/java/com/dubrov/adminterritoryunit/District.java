@@ -15,3 +15,4 @@ public class District extends Territory {
         System.out.println(localityInfo);
     }
 }
+

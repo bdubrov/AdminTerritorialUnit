@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Objects;
 
+
 public class Region extends Territory {
     private Collection<Territory> districts;
 

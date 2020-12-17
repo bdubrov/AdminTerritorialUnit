@@ -94,6 +94,7 @@ public class Locality implements AdminTerritorialUnit {
             parliamentString.append('\n');
             return parliamentString.toString();
         }
+
     }
 
     public Locality(String name, double numberOfPeople, Person leader, Collection<Person> deputies) {
@@ -205,6 +206,4 @@ public class Locality implements AdminTerritorialUnit {
     public void setLocalityType(LocalityType localityType) {
         this.localityType = localityType;
     }
-
-
 }
