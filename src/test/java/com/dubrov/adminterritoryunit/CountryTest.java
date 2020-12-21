@@ -3,8 +3,6 @@ package com.dubrov.adminterritoryunit;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -210,7 +208,7 @@ class CountryTest {
         ArrayList<Person> kievDeputies = new ArrayList<>();
         kievDeputies.add(
                 new Person(
-                        "Bohdan",
+                        "Petro",
                         "Dubrov",
                         19,
                         "Deputy"
@@ -243,7 +241,7 @@ class CountryTest {
         );
         chernihivDeputies.add(
                 new Person(
-                        "Ivan",
+                        "Petro",
                         "Fedorov",
                         30,
                         "Deputy"
@@ -263,6 +261,6 @@ class CountryTest {
         cities.add(new Locality("Chernihiv", 120, chernihivDeputies.get(0), chernihivDeputies));
         Country country = new Country("Ukraine", 38000, cities.get(0), 3800, regions, cities);
 
-        assertEquals("Ivan", country.findMostPopularNameInAllParliaments());
+        assertEquals("Petro", country.findMostPopularNameInAllParliaments());
     }
 }
